@@ -226,11 +226,6 @@ def init_db():
                 session.add(admin)
                 session.commit()
                 print("Default admin created (pmahi7801@gmail.com / 7418520963)")
-            else:
-                existing.email = "pmahi7801@gmail.com"
-                existing.password_hash = hash_password("7418520963")
-                session.commit()
-                print("Admin credentials updated")
         except Exception as e:
             session.rollback()
             print(f"Admin creation skipped: {e}")
