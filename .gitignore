@@ -1,0 +1,35 @@
+# Python caches
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Node modules & production builds (Vite/React)
+**/node_modules/
+**/dist/
+**/.vite/
+.eslintcache
+
+# Local configuration & environment secrets
+**/.env
+**/*.env.local
+**/*.env.development.local
+**/*.env.test.local
+**/*.env.production.local
+
+# Project specific uploads & face encodings (should not go to public GitHub)
+uploads/*
+!uploads/.gitkeep
+encodings/*
+!encodings/.gitkeep
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

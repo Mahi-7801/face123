@@ -1,0 +1,9 @@
+-- ============================================================
+-- MIGRATED TO SUPABASE (PostgreSQL)
+-- ============================================================
+-- This project now uses Supabase (PostgreSQL).
+-- Run `supabase_schema.sql` in your Supabase SQL Editor:
+-- https://supabase.com/dashboard/project/drcatwyjmkyiqiochbed/sql/new
+-- ============================================================
+-- The sample_data.sql and this file are kept for legacy reference only.
+-- ============================================================

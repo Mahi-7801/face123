@@ -1,0 +1,5 @@
+frontend/public/*.jpg filter=lfs diff=lfs merge=lfs -text
+frontend/public/*.webp filter=lfs diff=lfs merge=lfs -text
+frontend/public/*.avif filter=lfs diff=lfs merge=lfs -text
+uploads/*.jpg filter=lfs diff=lfs merge=lfs -text
+uploads/*.webp filter=lfs diff=lfs merge=lfs -text
